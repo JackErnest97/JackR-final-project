@@ -120,6 +120,25 @@ figure figcaption {text-align: center;
    .about-text p {max-width: 600px;
                   line-height: 24px;
                   font-size: 1.5rem;}
+
+   /* Contact page */
    
-   .contact-card {}               
-               }
+   .contact-card img {display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      max-height: 300px;
+      border: 1px solid black;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }         
+    
+   .contact-card figcaption {text-align: center;
+      color:#004FA8;
+      font-size: 1.5rem;
+      border: 1px solid black;
+      max-width: 300px;
+      max-height: 300px;}
+
+
+               
