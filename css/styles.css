@@ -1,0 +1,125 @@
+html {font-size: 16px;}
+
+body html {font-size: 16px;
+           height: 100%;}
+
+
+          
+
+/* h2 */
+h2 {color: #A86D07;
+   font-size: 2rem;}
+         
+
+/* Navbar styling */
+
+.navbar {display: inline-flex;
+         flex-flow: row-reverse;
+         align-items: flex-start;
+         flex-wrap: wrap;
+         width: 100%;
+         background-color: white;
+         position: sticky;
+         position: -webkit-sticky;
+         top: 0;
+         z-index: 1;
+         }
+
+.navbar img {display: inline-flex;
+            max-height: 100px;
+            margin-left: auto;
+          }
+         
+
+.navbar ul li {display: inline-flex;
+       list-style-type: none;
+       align-self: center;
+       margin-right: 20px;
+      }
+
+a {  text-decoration: none;
+   background-color: #004FA8;
+   color: white;
+   padding: 15px 40px;
+   border-radius: 100px;}
+
+a:hover {
+    box-shadow: 0 5px 10px;
+    background-color: white;
+    color: #004FA8;
+}
+
+
+/* Hero section */
+.hero-image {display: flex;
+       width: 100%;
+       height: 600px;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       position: relative;
+       
+       justify-content: center;
+    background-image: url(/img/palm-trees.jpg)}
+
+.hero-image, h2 {color: #A86D07;
+   font-size: 2rem;
+   justify-content: flex-end;
+   margin-right: 2rem;}
+
+/* Activities section */
+
+.activities {display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;}
+
+.activites-header {
+   display: flex;
+   justify-content: center;
+   margin: 50px;}
+
+.activities img {display: flex;
+                 flex-flow: row wrap;
+                 width: 100%;
+                 height: auto;
+                 max-width: 300px;
+                 max-height: 300px;
+                 border: 1px solid black;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+               }
+
+figure {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+
+figure figcaption {text-align: center;
+                   color:#004FA8;
+                   font-size: 1.5rem;
+                   border: 1px solid black;}
+
+/* About us section */
+/* For laptops */
+
+@media screen and (min-width: 1200px) {
+   .intro {display: flex;}
+    
+   .intro-text {flex: 1;
+                margin-top: 200px;
+                margin-left: 100px;
+                font-size: 1.25rem;}
+
+   .intro-img {flex: 1;
+               margin-top: 100px;
+               margin-right: 50px;}
+            
+   .about-text{display: flex;
+               justify-content: center;
+               margin-top: 100px;
+               }
+   }   
+
+   .about-text p {max-width: 600px;
+                  line-height: 24px;
+                  font-size: 1.5rem;}
+   
+   .contact-card {}               
+               }
