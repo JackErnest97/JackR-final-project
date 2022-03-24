@@ -122,9 +122,8 @@ figure figcaption {text-align: center;
                   font-size: 1.5rem;}
 
    /* Contact page */
-   
+
    .contact-card img {display: flex;
-      flex-flow: row wrap;
       width: 100%;
       height: auto;
       max-width: 300px;
@@ -139,6 +138,8 @@ figure figcaption {text-align: center;
       border: 1px solid black;
       max-width: 300px;
       max-height: 300px;}
+
+   .contact-card ul {list-style-type: none;}
 
 
                
