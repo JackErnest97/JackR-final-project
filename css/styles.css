@@ -150,9 +150,10 @@ a:hover {
    /* Contact page */
 
    .contacts {display: flex;
-              align-content: center;
-                  flex-flow: column wrap;
-                  justify-content: center;}
+             flex-flow: column wrap;
+             justify-content: center;
+
+                }
 
    .contacts img {display: flex;
       width: 100%;
@@ -165,8 +166,18 @@ a:hover {
     }         
 
    .contacts ul {list-style-type: none;}
+
+   input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
    
-  }
+
+
+  
 
 /* Footer */
 footer {margin-top: auto;}
