@@ -38,7 +38,7 @@ h2 {color: #A86D07;
        margin-right: 20px;
       }
 
-a {  text-decoration: none;
+.navbar a {  text-decoration: none;
    background-color: #004FA8;
    color: white;
    padding: 15px 40px;
@@ -61,13 +61,13 @@ a:hover {
        position: relative;
        
        justify-content: center;
-    background-image: url(../img/palm-trees.jpg)}
+    background-image: url(../img/palm-trees.jpg);}
 
 .hero-image, h2 {color: #A86D07;
    font-size: 2rem;
    justify-content: flex-end;
    margin-right: 2rem;}
-git status
+
 /* Activities section */
 
 .activities {display: flex;
@@ -151,16 +151,13 @@ git status
 
    .contacts {display: flex;
              flex-flow: column wrap;
-             justify-content: center;
-
-                }
+             justify-content: center; }
 
    .contacts img {display: flex;
       width: 100%;
       max-width: 210px;
       margin-bottom: 28px;
       border-radius: 50%;
-     
       border: 1px solid black;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }         
